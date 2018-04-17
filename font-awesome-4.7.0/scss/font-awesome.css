@@ -1,0 +1,97 @@
+/*
+Error: Undefined variable: "$fa-font-path".
+        on line 6 of font-awesome-4.7.0/scss/_path.scss
+        from line 8 of ./font-awesome-4.7.0/scss/font-awesome.scss
+
+1: /*!
+2:  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+3:  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+4:  *\/
+5: 
+6: @import "variables";
+7: @import "mixins";
+8: @import "path";
+9: @import "core";
+10: @import "larger";
+11: @import "fixed-width";
+
+Backtrace:
+font-awesome-4.7.0/scss/_path.scss:6
+./font-awesome-4.7.0/scss/font-awesome.scss:8
+/usr/lib/ruby/vendor_ruby/sass/script/tree/variable.rb:49:in `_perform'
+/usr/lib/ruby/vendor_ruby/sass/script/tree/node.rb:58:in `perform'
+/usr/lib/ruby/vendor_ruby/sass/script/tree/string_interpolation.rb:93:in `_perform'
+/usr/lib/ruby/vendor_ruby/sass/script/tree/node.rb:58:in `perform'
+/usr/lib/ruby/vendor_ruby/sass/script/tree/funcall.rb:173:in `perform_arg'
+/usr/lib/ruby/vendor_ruby/sass/script/tree/funcall.rb:124:in `block in _perform'
+/usr/lib/ruby/vendor_ruby/sass/script/tree/funcall.rb:124:in `each'
+/usr/lib/ruby/vendor_ruby/sass/script/tree/funcall.rb:124:in `each_with_index'
+/usr/lib/ruby/vendor_ruby/sass/script/tree/funcall.rb:124:in `each'
+/usr/lib/ruby/vendor_ruby/sass/script/tree/funcall.rb:124:in `map'
+/usr/lib/ruby/vendor_ruby/sass/script/tree/funcall.rb:124:in `_perform'
+/usr/lib/ruby/vendor_ruby/sass/script/tree/node.rb:58:in `perform'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:397:in `visit_prop'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:160:in `block in visit'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `block in with_base'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:115:in `with_frame'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `with_base'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:160:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:504:in `block (2 levels) in visit_directive'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:504:in `map'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:504:in `block in visit_directive'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:181:in `with_environment'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:503:in `visit_directive'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:160:in `block in visit'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `block in with_base'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:115:in `with_frame'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `with_base'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:160:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:328:in `block (2 levels) in visit_import'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:328:in `map'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:328:in `block in visit_import'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:88:in `block in with_import'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:115:in `with_frame'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:88:in `with_import'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:325:in `visit_import'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:160:in `block in visit'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `block in with_base'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:115:in `with_frame'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `with_base'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:160:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:52:in `map'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:52:in `visit_children'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:181:in `with_environment'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:168:in `visit_children'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `block in visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:188:in `visit_root'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:159:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:8:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/root_node.rb:36:in `css_tree'
+/usr/lib/ruby/vendor_ruby/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:381:in `_render_with_sourcemap'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:298:in `render_with_sourcemap'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `each'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:473:in `on_file_changed'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:331:in `block in watch'
+/usr/lib/ruby/vendor_ruby/listen/event/config.rb:23:in `call'
+/usr/lib/ruby/vendor_ruby/listen/event/processor.rb:115:in `_process_changes'
+/usr/lib/ruby/vendor_ruby/listen/event/processor.rb:19:in `block in loop_for'
+/usr/lib/ruby/vendor_ruby/listen/event/processor.rb:15:in `loop'
+/usr/lib/ruby/vendor_ruby/listen/event/processor.rb:15:in `loop_for'
+/usr/lib/ruby/vendor_ruby/listen/event/loop.rb:84:in `_wait_for_changes'
+/usr/lib/ruby/vendor_ruby/listen/event/loop.rb:42:in `block in setup'
+/usr/lib/ruby/vendor_ruby/listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$fa-font-path\".\A         on line 6 of font-awesome-4.7.0/scss/_path.scss\A         from line 8 of ./font-awesome-4.7.0/scss/font-awesome.scss\A \A 1: /*!\A 2:  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome\A 3:  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)\A 4:  */\A 5: \A 6: @import \"variables\";\A 7: @import \"mixins\";\A 8: @import \"path\";\A 9: @import \"core\";\A 10: @import \"larger\";\A 11: @import \"fixed-width\";"; }

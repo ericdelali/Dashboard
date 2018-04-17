@@ -1,0 +1,229 @@
+$background: desaturate(khaki, 25%);
+$text-color: complement($background);
+$font-family: Helvetica;
+
+
+
+.background-col {
+    background-color: $background;
+
+    .profile-image {
+        width: 6em;
+        height: 6em;
+        margin-top: 2em;
+        margin-left: 3em;
+        border-radius: 5em;
+        border-bottom-left-radius: 5em;
+        border-top-right-radius: 5em;
+        border-top-left-radius: 5em;
+    }
+
+    .font-fa{
+        padding-left: 4em;
+        margin-top: -19px;
+        padding-right: 16em;  
+    }
+    .profile-name{
+        margin-left: 3em;
+        font-family: $font-family; 
+        font-size: 1.10em;
+    }
+
+    .fa-ul{
+        margin-left: 1.142857em;
+        font-family: $font-family;
+
+    }
+
+    .icons{
+        margin-right: 2em;
+        margin-bottom: 1.2em;
+    }
+    .icons1{
+        margin-right: 1.5em;
+        margin-bottom: 1.2em;
+    }
+    .icons2{
+        margin-right: 2.0em;
+        margin-bottom: 1.2em;
+    }
+    .icons3{
+        margin-right: 2.0em;
+        margin-bottom: 1.2em;
+    }
+    .icons4{
+        margin-right: 1.5em;
+    }
+    .icons5{
+        margin-right: 1.5em;
+        margin-bottom: 1.2em;
+    }
+    .head{
+    font-family: $font-family;
+    font-size: 1.25em;
+    }
+    .icons7{
+        margin-right: 1.05em;
+    }    
+}
+.float{
+    float: right;
+}
+form > .form-control{
+    margin-left: -58em;
+    padding-right: 46em;
+} 
+.customer > h3{
+    margin-left: 2em;
+}
+.post1{
+    margin-right: -2em;
+}
+.fa-map-marker:before{
+    margin-right: 1em;
+}
+.preview{
+    margin-left: 1em;
+}
+.btn-default{
+    margin-left: 3em;
+}
+.container{
+    width: 1040px;
+}
+.button{
+    border-radius: 5em;
+    margin-left: 0.8em;
+}
+.space{
+    padding-left: 19em;
+}
+.white{
+    background-color: whitesmoke;
+}
+.csr{
+    margin-right: -1em;
+}
+.line1{
+        width: 44em;
+}
+.francisco{
+    margin-top: 1em;
+}
+.emp-type{
+    margin-top: 1em;
+}
+.experience{
+    margin-top: 1em;
+}
+.status{
+    margin-top: 0em;
+}
+.des-tn{
+    margin-top: 3.0em;
+}
+.line2{
+    width: 44em;
+}
+.rick{
+    width: 4em;
+    height: 4em;
+    border-bottom-left-radius: 5em;
+    border-top-right-radius: 5em;
+    border-bottom-right-radius: 5em;
+    border-top-left-radius: 5em;
+    margin-right: 1em;
+}
+.salary{
+    margin-top: 1em;
+}
+.middle-pic{
+    width: 15em;
+    height: 15.5em;
+}
+.social-bar{
+    .fb-bnt{
+        background-color: desaturate(blue, 70%);
+        color: white;
+        width: 17em;
+        margin-left: 0em;
+        height: 2.5em;
+    }
+    .ptfb{
+        color: #eef2f5;
+        text-decoration: none;
+        padding-left: 1em;
+        font-size: -3em;
+    }
+    .fb-icon{
+        margin-right: 1em;
+        margin-left: -4em;
+    }
+    .twt-bnt{
+        background-color: lighten(blue, 20%);
+        color: white;
+        width: 17em;
+        margin-left: 0em;
+        height: 2.5em;
+    }
+    .twt-icon{
+        margin-right: 1em;
+        margin-left: -6em;
+    }
+    .ttj{
+        color: #eef2f5;
+        text-decoration: none;
+        padding-left: 1em;
+        font-size: -3em;
+    }
+    .lnkin-bnt{
+        background-color: lighten(blue, 30%);
+        color: white;
+        width: 17em;
+        margin-left: 0em;
+        height: 2.5em;
+    }
+    .lnkin-icon{
+        margin-right: 1em;
+        margin-left: -4em;
+    }
+    .ptl{
+        color: #eef2f5;
+        text-decoration: none;
+        padding-left: 1em;
+        font-size: -3em;
+    }
+}
+
+.globe{
+    .globe-icon{
+        padding-right: 1em;
+    }
+    .serach-form{
+        width: 19em;
+    }
+    .globe-form{
+        width: 22em;
+        height: 2.9em;
+    }
+    .sebttn{
+        margin-top: -5em;
+        margin-left: 21.5em;
+        height: 3.5em;
+    }
+    .line9{
+        margin-top: -1em;
+    }
+}
+.line8{
+    margin-top: -1em;
+}
+.body-bckg{
+    background-color: #e8e5e5;
+}
+input[type="checkbox"] {
+    margin: 4px 0 0;
+    margin-top: 1px \9;
+    line-height: normal;
+    margin-right: 1em;
+}
