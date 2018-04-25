@@ -1,5 +1,5 @@
 .background-col {
-  background-color: #e0d99c; }
+  background-color: #0e2e4e; }
   .background-col .profile-image {
     width: 6em;
     height: 6em;
@@ -16,7 +16,8 @@
   .background-col .profile-name {
     margin-left: 3em;
     font-family: Helvetica;
-    font-size: 1.10em; }
+    font-size: 1.10em;
+    color: #b5aeb4; }
   .background-col .fa-ul {
     margin-left: 1.142857em;
     font-family: Helvetica; }
@@ -186,5 +187,11 @@ input[type="checkbox"] {
   margin-top: 1px \9;
   line-height: normal;
   margin-right: 1em; }
+
+.side1 > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  color: #b5aeb4; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,4 +1,4 @@
-$background: desaturate(khaki, 25%);
+$background: #0e2e4e;
 $text-color: complement($background);
 $font-family: Helvetica;
 
@@ -27,6 +27,7 @@ $font-family: Helvetica;
         margin-left: 3em;
         font-family: $font-family; 
         font-size: 1.10em;
+        color: #b5aeb4;
     }
 
     .fa-ul{
@@ -227,3 +228,11 @@ input[type="checkbox"] {
     line-height: normal;
     margin-right: 1em;
 }
+.side1 > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    color: #b5aeb4;
+}
+
+   
